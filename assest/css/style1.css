@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.Name{
+background-color: teal;
+padding: 10px;
+text-align: left;
+font-size: 15px;
+color: white
+
+}
+.topnav a.active{
+    background-color: none;
+}
+    
+.topnav a
+ { overflow: hidden;
+    float: right;
+    text-decoration: none;
+}

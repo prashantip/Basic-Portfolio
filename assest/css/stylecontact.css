@@ -1,0 +1,70 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-image: url('../images/vintage-concrete/vintage-concrete/vintage-concrete.png')
+  }
+  
+  
+  body { background-color:#ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 15px 10px 15px 10px
+  
+  }
+  
+  header
+  { color: whitesmoke;
+     background-color: teal;
+      font-size: 10px;
+      font : bold;
+      float: left;
+  }
+  .menu {
+    list-style-type: none;
+  background-color: none;
+  overflow: hidden;}
+  
+  nav
+    {float: right;}
+    
+  ul a :hover
+  {background-color: none;}
+   
+  
+    .box
+    { max-width: 960px;
+      margin-left: 100px;
+      margin-right: 100px;
+      padding-left: 10px;
+      padding-right: 10px
+  }
+  .content
+      {background-color: #ffffff;
+        border-color: #dddddd;
+       width: 700px;
+        padding-bottom: 12px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        height: 500px;
+        align-self: auto;  
+                }
+
+h2{
+    color: teal;
+}
+   
+input{
+    align-items: flex-end;
+    
+}
+p{
+    padding-right: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #dddddd;
+    
+}

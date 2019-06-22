@@ -1,56 +1,89 @@
-*{
-    box-sizing: border-box;
-  }
-  
-  body {
-      background-image: url('../images/vintage-concrete/vintage-concrete/vintage-concrete.png')
-  }
-  
-  
-  body { background-color:#ffffff;
-  font-family: 'Times New Roman', Times, serif;
-  padding: 15px 10px 15px 10px
-  
-  }
-  
-  header
-  { color: whitesmoke;
-     background-color: teal;
-      font-size: 10px;
-      font : bold;
-      float: left;
-  }
-  .menu {
-    list-style-type: none;
-  background-color: none;
-  overflow: hidden;}
-  
-  nav
-    {float: right;}
-    
-  ul a :hover
-  {background-color: none;}
-   
-  
-    .box
-    { max-width: 960px;
-      margin-left: 100px;
-      margin-right: 100px;
-      padding-left: 10px;
-      padding-right: 10px
-  }
-  .content
-      {background-color: #ffffff;
-        border-color: #dddddd;
-       width: 700px;
-        padding-bottom: 12px;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        height: 500px;
-        align-self: auto;  
-                }
 
-h2{
-    color: teal;
+*{
+  box-sizing: border-box;
 }
-   
+
+body {
+  background-color:#ffffff;
+ 
+}
+
+
+.box {
+  background-color:#ffffff;
+  border-color: #cccccc;
+  max-width:960;
+  margin-right: 20px;
+  margin-left:20px;
+  background-image:url('../images/vintage-concrete/vintage-concrete/vintage-concrete.png')
+}
+
+.header{
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#ffffff;
+  border-color: #cccccc;
+}
+
+header
+{ color: whitesmoke;
+   background-color: teal;
+    font-size: 30px;
+    font : bold;
+    float: left;
+    padding: 10px 15px 10px 15px;
+    height:45px ;
+}
+.menu {
+  list-style-type: none;
+  background-color: none;
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+nav
+  {float: right;}
+  
+ul a :hover
+{background-color: none;}
+ 
+  
+
+.content      {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  width: 960px;
+  padding-bottom: 12px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1{
+color:teal;
+padding: 10px 10px 10px 10px;
+font-family: Arial, Helvetica, sans-serif;
+margin-right:800px;
+margin-left:0px; 
+}
+
+.gallery{
+  width:100px;height:100px;
+}
+
+
+.footer{
+position: fixed;
+color:whitesmoke#000;
+background-color:#666666;
+padding: 10px 10px 10px 10px;
+text-align: center;
+font-size:9px;
+left: 0;
+bottom: 0;
+width: 100%;
+border-top: 10px solid #44aaaa;
+}
